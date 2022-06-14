@@ -18,10 +18,13 @@ class Obstacle {
 		const playerY = playerInfo.y + playerInfo.height / 2
 
 		if (dist(obstacleX, obstacleY, playerX, playerY) > 95 ) {
+			
 			return false
+			
 		} else {
 			// we have a colission
 			// console.log('colission') 
+			score = score+1; 
 			return true
 		}
 	}
