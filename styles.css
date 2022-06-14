@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Spartan", sans-serif;
+   background-color: #000000; 
+  /* background: url('./assets/background/internetExplorer.gif'),
+  url('./assets/background/gato.gif')
+  ;
+
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+  background-color: #000; */
+}
