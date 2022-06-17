@@ -30,7 +30,7 @@ class Obstacle {
 	}
 
 	draw() {
-		this.x--
+		this.x -= 10
 		image(this.image, this.x, this.y, this.width, this.height)
 	}
 }
